@@ -15,8 +15,8 @@ import logging
 HOST = '0.0.0.0'
 PORT = 8000
 MAX_CONNECTIONS = 25
-FILES_DIRECTORY = '/path/to/files'
-LOGS_DIRECTORY = 'C:/Users/jgvm/OneDrive/Escritorio/Universidad/Semestre 9/Infraestructura de Comunicaciones/Laboratorios/Laboratorio 3'
+FILES_DIRECTORY = '/archivos'
+LOGS_DIRECTORY = '/logs'
 
 # Configuración del registro
 logging.basicConfig(filename=f'{LOGS_DIRECTORY}/server.log', level=logging.INFO)
